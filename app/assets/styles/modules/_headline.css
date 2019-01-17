@@ -17,7 +17,6 @@
 
 	&--small {
 		font-size: 1.2rem;
-
 		@mixins atSmall {
 			font-size: 1.875rem;
 		}
@@ -33,11 +32,19 @@
 		font-weight: 100;
 	}
 
+	strong {
+    font-weight: 400;
+  	}
+
 	&--b-margin-small {
 		margin-bottom: .5em;
 	}
 
 	&--b-margin-large {
 		margin-bottom: 1.6em;
+	}
+
+	&--no-t-margin {
+		margin-top: 0;
 	}
 }
