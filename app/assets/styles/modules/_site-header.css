@@ -20,7 +20,6 @@
 		transform-origin: 50% 0;
 		background-color: $mainBlue;
 		padding: 25px 36px;
-		display: inline;
 
 		@mixin atMedium{
 			left: auto;
@@ -49,6 +48,10 @@
 		display: none;
 
 		@mixin atMedium {
+			display: block;
+		}
+
+		&--is-visible {
 			display: block;
 		}
 	}

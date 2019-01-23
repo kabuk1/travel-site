@@ -1136,7 +1136,6 @@ Instead edit gulp/templates/sprite */
 		        transform-origin: 50% 0;
 		background-color: #2f5572;
 		padding: 25px 36px;
-		display: inline;
 	}
 
 @media(min-width: 800px) {
@@ -1178,6 +1177,10 @@ Instead edit gulp/templates/sprite */
 			display: block
 	}
 	}
+
+.site-header__menu-content--is-visible {
+			display: block;
+		}
 
 .primary-nav--pull-right {
 		float: right;
