@@ -28,7 +28,7 @@
 	}
 
 	&--gutters-small > div {
-		padding-right: -45px;
+		padding-right: 45px;
 	}
 
 	&__b-margin-until-medium {
