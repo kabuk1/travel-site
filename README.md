@@ -10,19 +10,15 @@ You can see the completed website in action [here](https://kabuk1.github.io/trav
 
 ## Features
 
-* Mobile-first performance:
+* Mobile-first performance and responive web design:
 
-  * Lazy loading images and icon sprites for faster page load time
-
-  * Responsive images for resolution switching to save bandwidth
-
-* Responsive web design:
-
-  * Responsive images for different cropping situations
+  * Lazy-loading images, icon sprites, responsive images
+  
+  * Icon sprites for faster page load time
 
 * Support for legacy browsers:
 
-  * Use picturefill as a responsive image polyfill
+  * Picturefill to ensure responsive images
 
   * Test browser support for SVGs and flexbox with gulp-modernizr
 
@@ -32,29 +28,58 @@ You can see the completed website in action [here](https://kabuk1.github.io/trav
 
 * Smooth page scroll to an anchor on the same page
 
+## Getting Started
+
+### Clone or download this repository
+
+```sh
+git clone https://github.com/kabuk1/travel-site.git
+```
+
+### Prerequisites
+
+```sh
+Node.js install
+```
+
+```sh
+NPM install
+```
+
 ## Built with
 
-### Front-end
+### Library
 
-* [jquery](https://api.jquery.com/)
-* [jquery-smooth-scroll](https://github.com/kswedberg/jquery-smooth-scroll#smooth-scroll-plugin)
-* [waypoints](http://imakewebthings.com/waypoints/)
-* [lazysizes](https://github.com/aFarkas/lazysizes#lazysizes)
-* [picturefill](https://github.com/scottjehl/picturefill#picturefill)
-* [normalize.css](http://nicolasgallagher.com/about-normalize-css/)
-* [gulp-modernizr](https://github.com/doctyper/gulp-modernizr#gulp-modernizr)
-* [gulp-svg2png](https://github.com/akoenig/gulp-svg2png#gulp-svg2png-)
-* [postcss](http://postcss.org/)
-* [babel](http://babeljs.io/)
+* jquery
 
-### Utilities
-* [webpack](https://webpack.js.org/concepts/)
-* [gulp](https://gulpjs.com/)
+### Build Tools
+
+* Gulp
+* PostCSS
+* Babel
+* Webpack
+* normalize.css
+* lazysizes
+* waypoints
 
 ### Testing
 
-* [browsersync](https://www.browsersync.io/)
+* browsersync
 
-## License
+## Deployment
 
-#### [MIT](./LICENSE)
+Bundle all files together in git bash using gulp:
+
+```
+gulp build
+```
+To preview your build project using gulp:
+
+```
+gulp previewdist
+```
+
+## Acknowledgments
+
+* Thanks to [Brad Schiff](https://github.com/LearnWebCode) for a fantastic course on workflow. 
+
