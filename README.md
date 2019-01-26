@@ -29,21 +29,34 @@ You can see the completed website in action [here](https://kabuk1.github.io/trav
 * Smooth page scroll to an anchor on the same page
 
 ## Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine. 
 
-### Clone or download this repository
+### Prerequisites
+
+* Node.js
+* NPM
+
+### Installing
+
+#### Clone this repository:
 
 ```sh
 git clone https://github.com/kabuk1/travel-site.git
 ```
 
-### Prerequisites
-
-```sh
-Node.js install
+#### Install dependencies via NPM
+```
+npm install
 ```
 
-```sh
-NPM install
+#### Install gulp package 
+```
+npm install gulp -save
+```
+
+#### Start the website
+```
+gulp watch
 ```
 
 ## Built with
