@@ -6,7 +6,7 @@ A hands-on project from [Udemy: Git a Web Developer Job: Mastering The Modern Wo
 
 ## Live Demo
 
-You can see the completed website in action [here](https://kabuk1.github.io/travel-site/).
+You can see the completed website in action at [kabuk1.github.io/travel-site/](https://kabuk1.github.io/travel-site/).
 
 ## Features
 
